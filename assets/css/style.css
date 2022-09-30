@@ -192,9 +192,6 @@ hr.sidebar-divider {
     .sidebar ul li a{
         letter-spacing: 0.05rem;
     }
-    .sidebar{
-        transform: translateX(0);
-    }
     .logo{
        padding-top: 0.4rem;
        height: 3rem;
