@@ -48,5 +48,24 @@
  window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
+  
+// chart donut
+var xValues = ["CNC"];
+var yValues = [40,60];
+var barColors = [
+  "#b91d47"
+];
+
+new Chart("myChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+
+});
 
 })(jQuery); // End of use strict
