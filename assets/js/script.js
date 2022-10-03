@@ -53,7 +53,8 @@
 var xValues = ["CNC"];
 var yValues = [40,60];
 var barColors = [
-  "#b91d47"
+  "#00aba9",
+  "#c1c1c1"
 ];
 
 new Chart("myChart", {
